@@ -10,12 +10,12 @@ export ZSH_COMPDUMP=${XDG_CACHE_HOME:-$HOME/.cache}/.zcompdump-${HOST}-${ZSH_VER
 export HISTFILE=${XDG_CACHE_HOME:-$HOME/.cache}/.zsh_history
 export ZSH="$HOME/.oh-my-zsh"
 
-#ZSH_THEME="robbyrussell"
+ZSH_THEME="robbyrussell"
 #ZSH_THEME="ys"
 #ZSH_THEME="random"
 #ZSH_THEME="powerlevel10k/powerlevel10k"
 #ZSH_THEME="crunch"
-ZSH_THEME="kiwi"
+#ZSH_THEME="kiwi"
 #ZSH_THEME="jonathan"
 #ZSH_THEME="obraun"
 
@@ -32,7 +32,7 @@ plugins=(
 #    autojump
 )
 
-source $ZSH/oh-my-zsh.sh
+source ~/.oh-my-zsh/oh-my-zsh.sh
 
 # nvm
 export NVM_DIR="$HOME/.nvm"

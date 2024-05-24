@@ -1,7 +1,12 @@
 #!/bin/bash
+# 本地
 export LANG=zh_CN.UTF-8
 export LANGUAGE=zh_CN:en_US
-
+export LC_CTYPE=en_US.UTF-8
+# 设置屏幕分辨率
+#xrandr --output Virtual-1 --mode 1920x1080 --rate 60.00
 mpd &
 dunst &
+# 启动dwm
+exec slstatus &
 exec dwm
