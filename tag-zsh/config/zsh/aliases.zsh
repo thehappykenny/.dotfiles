@@ -16,6 +16,7 @@ alias wget="wget --hsts-file=${XDG_CACHE_HOME:-$HOME/.cache}/.wget-hsts"
 alias ap="source ~/Documents/Pyenv/env/bin/activate"
 alias dp="deactivate"
 alias cr="clear"
+alias xxx="sudo shutdown -h now"
 # npm
 #alias tbnpm="npm --registry=https://registry.npm.taobao.org"
 #alias npmil="tbnpm install"
