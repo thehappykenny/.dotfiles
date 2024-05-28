@@ -7,6 +7,7 @@ elif command -v nvim >/dev/null; then
 fi
 
 # main
+alias as="nvim $HOME/.config/zsh/aliases.zsh"
 alias ls="ls --color -X"
 alias mt="mutt"
 alias os="neofetch"
@@ -17,6 +18,8 @@ alias ap="source ~/Documents/Pyenv/env/bin/activate"
 alias dp="deactivate"
 alias cr="clear"
 alias xxx="sudo shutdown -h now"
+alias ws="sudo mount -t cifs -o username="guest",password="" //192.168.3.27/报告备份 ~/windows_share/"
+alias jp="jupyter notebook"
 # npm
 #alias tbnpm="npm --registry=https://registry.npm.taobao.org"
 #alias npmil="tbnpm install"
