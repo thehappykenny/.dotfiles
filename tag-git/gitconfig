@@ -3,3 +3,5 @@
 	name = wp
 [init]
 	defaultBranch = master
+[http]
+	sslverify = false

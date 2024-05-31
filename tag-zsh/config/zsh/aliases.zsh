@@ -20,6 +20,7 @@ alias cr="clear"
 alias xxx="sudo shutdown -h now"
 alias ws="sudo mount -t cifs -o username="guest",password="" //192.168.3.27/报告备份 ~/windows_share/"
 alias jp="jupyter notebook"
+alias fg="$HOME/Downloads/fastgithub_linux-x64/fastgithub"
 # npm
 #alias tbnpm="npm --registry=https://registry.npm.taobao.org"
 #alias npmil="tbnpm install"
