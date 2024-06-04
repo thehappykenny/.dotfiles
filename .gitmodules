@@ -4,4 +4,4 @@
 
 [submodule "tag-bin/bin/dwm.script"]
 	path = tag-bin/bin/dwm.script
-	url = https://github.com/Wjinlei/dwm.script
+	url = https://github.com/thehappykenny/dwm.script
