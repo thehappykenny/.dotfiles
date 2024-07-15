@@ -1,0 +1,53 @@
+export ZDOTDIR=~/.config/zsh
+# Language
+# Golang
+export GO111MODULE=on
+export GOPROXY="https://goproxy.io,direct"
+export GOPATH="$HOME/.local/go"
+export GOBIN="$GOPATH/bin"
+export PATH="$GOBIN:$PATH"
+
+# Rust
+export PATH="$HOME/.cargo/bin:$PATH"
+
+# .Net
+export DOTNET_ROOT=$HOME/dotnet
+export PATH=$PATH:$HOME/dotnet
+
+# Pyenv with github
+export PYENV_VIRTUALENV_DISABLE_PROMPT=1
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+if command -v pyenv >/dev/null 2>&1; then
+    eval "$(pyenv init --path)"
+    eval "$(pyenv virtualenv-init -)"
+fi
+
+# Java
+#export JAVA_HOME="/usr/local/jdk1.8.0_311"
+#export PATH="$JAVA_HOME/bin:$PATH"
+#export M2_HOME="/usr/local/apache-maven-3.8.3"
+#export PATH="$M2_HOME/bin:$PATH"
+# Jenv
+#export PATH="$HOME/.jenv/bin:$PATH"
+#if command -v jenv >/dev/null 2>&1; then
+#    eval "$(jenv init -)"
+#fi
+
+#export npm_config_cache=${XDG_CACHE_HOME:-$HOME/.cache}/.npm
+#export XAUTHORITY=${XDG_CACHE_HOME:-$HOME/.cache}/.Xauthority
+#export LESSHISTFILE=${XDG_CACHE_HOME:-$HOME/.cache}/.lesshst
+
+# DWM script
+#export TERMINAL="st"
+#export EDITOR="nvim"
+
+# Custom
+#export PATH="$HOME/.bin:$PATH"
+#export PATH="$HOME/.bin/tools:$PATH"
+#export PATH="$HOME/.bin/dwm.script:$PATH"
+#export PATH="$HOME/.bin/rainbarf:$PATH"
+#export PATH="$HOME/.bin/install:$PATH"
+
+# Default programs:
+export RANGER_LOAD_DEFAULT_RC=false
