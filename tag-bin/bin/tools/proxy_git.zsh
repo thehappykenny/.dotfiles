@@ -10,3 +10,8 @@ function proxy_off() {
 	unset http_proxy https_proxy
 	echo -e "终端代理关闭。"
 }
+
+function proxy_status() {
+	env|grep -i proxy
+	echo -e "终端代理状态。"
+}

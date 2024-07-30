@@ -22,4 +22,4 @@ fi
 #fzf                                                       
 source $HOME/.config/zsh/fzf.zsh                           
 source $HOME/.config/zsh/completion.zsh                    
-source $HOME/.config/zsh/key-bindings.zsh                  
+source $HOME/.config/zsh/key-bindings.zsh

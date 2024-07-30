@@ -1,7 +1,5 @@
-[user]
-	email = 859994178@qq.com
-	name = wp
-[init]
-	defaultBranch = master
 [http]
 	sslverify = false
+[user]
+	name = wp
+	email = 859994178@qq.com
